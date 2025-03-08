@@ -6,6 +6,10 @@ Since `sentence_transformers` or its dependencies (`torch` or `transformers`) ar
 ```bash
 pip install sentence_transformers langchain-community faiss-cpu pandas openai numpy==1.26.4
 ```
+# Configuration
+1. Set your `API_KEY` in `config/key.py`.
+2. If necessary, adjust the paths in `config/path.py` accordingly.
+
 # Usage
 Run the following command to execute the script:
 ```bash
