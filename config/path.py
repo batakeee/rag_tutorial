@@ -1,0 +1,5 @@
+PICKLE_FILE = "data/db_chunk.pkl"
+FAISS_FILE = "data/db_vec.faiss"
+OUTPUT_FILE = "answer.csv"
+INPUT_FILE = "data/question.csv"
+STORY_TEXT = "data/story.txt"
