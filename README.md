@@ -1,4 +1,4 @@
-# rag_tutorial
+# RAG Tutorial
 Source Code for Playing with Naive RAG (Retrieval-Augmented Generation)
 
 ## Requirements
