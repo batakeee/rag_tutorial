@@ -61,7 +61,7 @@ augmented_prompt = PromptTemplate(
     template=AUGMENT_TEMPLATE,
     input_variables=["context1", "context2", "context3", "context4", "question"]
 )
-final_chain = LLMChain(llm=llm, prompt=augmented_prompt)
+chain = LLMChain(llm=llm, prompt=augmented_prompt)
 
 
 # *******************************
@@ -82,7 +82,7 @@ for index, row in df.iterrows():
         "question": row["Question"]
     }
     # 回答生成
-    ans = final_chain.run(input_data)
+    ans = chain.run(input_data)
 
     # 書き込み
     df.at[index, "Response"] = ans
